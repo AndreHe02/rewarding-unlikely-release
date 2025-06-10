@@ -27,6 +27,8 @@ This project uses a verifier adapted from [DeepSeek-Prover-V1.5](https://github.
 - To launch RL training using GRPO, use the script:  
   [`examples/lean/grpo.sh`](examples/lean/grpo.sh)
 
+- The core training loop and implementation of unlikeliness reward are in [`verl/trainer/ppo/ray_lean_trainer.py`](verl/trainer/ppo/ray_lean_trainer.py).
+
 - To evaluate trained checkpoints via sampling:  
   [`examples/inference/run_sampling.sh`](examples/inference/run_sampling.sh)
 
